@@ -51,14 +51,36 @@ body {
 }
 
 .menu a {
-    font-size: 35px;
+    font-size: 29px;
+    font-family: cursive;
     text-decoration: none;
+    color: #888888;
+}
+
+.menu a:hover {
     color: #42c2f4;
 }
 
+.menu li:hover {
+    background-color: white;
+}
 
+.menu li:link {
+    color: #42c2f4;
+    background-color: white;
+}
 
-
+/*
+.right-container {
+    margin: 140px;
+    float: right;
+    background-color: white;
+    right: 140px;
+    width: 769px;
+    height: 100%;
+    display: block;
+}
+*/
 
 
 
