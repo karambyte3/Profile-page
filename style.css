@@ -5,7 +5,7 @@ body {
 
 .everything {
     margin: 140px;
-    height: 500px;
+    height: 503px;
     background-color: white;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -35,17 +35,19 @@ body {
 
 .menu ul {
     margin: 0px;
-    height: 270px;
-    border-style: solid;
+    height: 268px;
+    padding: 0px;
 }
 
 .menu li {
-    margin: 0px;    
-    padding: 6.5px;
+    left: 0px;
+    margin: 0px;
+    margin-bottom: 1px;
+    padding: 7px;
     text-decoration: none;
     list-style: none;
-    
-    border-left:40px solid black;
+    border-left:20px solid #42c2f4;
+    background-color: #eaeaea;
 }
 
 .menu a {
